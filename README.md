@@ -1,11 +1,11 @@
 # Blockchain
 
 ## Anforderung
-1. Python >= 3.10
+1. Python version 3
 2. pip version 3
-3. Jupiter Notebook
+3. Flask
 
 ## Installation
 ```sh
 pip install -r requirements.txt
-``` # Blockchain
+```
