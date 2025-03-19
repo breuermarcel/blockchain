@@ -30,8 +30,10 @@ pip install -r requirements.txt
 1. Start the Flask app:
 
 ```bash
-python your_blockchain_script.py
+python blockchain.py
 ```
+
+The script will automatically start a local Flask server if run directly.
 
 2. Available endpoints:
 
@@ -52,9 +54,12 @@ GET http://127.0.0.1:5000/mine_block
 GET http://127.0.0.1:5000/get_chain
 ```
 
+The `/get_chain` endpoint also returns a validity check for the current blockchain.
+
 ## 📚 Key Concepts Illustrated
 
 - Block structure with index, timestamp, proof, and previous hash
 - Hashing and linking blocks
 - Proof-of-Work for block validation
 - Chain validation
+- JSON-formatted block output using Python dataclasses
